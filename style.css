@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", serif;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+.main {
+    width: 340px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+    border: 1px black solid;
+}
+.illustration {
+    width: 100%;
+    border-radius: 15px;
+}
+h3 {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 12px 0;
+    font-size: 0.8em;
+    font-weight: 800
+}
+.date {
+    font-weight: 600;
+    font-size: 0.8em;
+}
+h1 {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: hsl(47, 88%, 63%);
+    margin: 15px 0;
+}
+.description {
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.avatar {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.avatar img {
+    width: 10%;
+    margin: 0 10px 0 0;
+}
+.avatar h2 {
+    font-size: 0.9em;
+    font-weight: 800;
+}
+@media (max-width: 375px) {
+    .main {
+        width: 300px;
+    }
+}
